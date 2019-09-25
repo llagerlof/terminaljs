@@ -20,7 +20,7 @@ Termpage.init(document.getElementById('term'), (command) => {
             return Termpage.replace("github.com/llagerlof/terminaljs", {"github.com/llagerlof/terminaljs": Termpage.link("http://www.github.com/llagerlof/terminaljs")});
         break;
         case "glitch":
-            return Termpage.replace("Glitch is a tool for coding, collaborate and publish web applications. terminaljs is hosted on Glitch.", {"Glitch": Termpage.link("https://glitch.com/create"), "terminaljs": Termpage.link("https://www.github.com/llagerlof/terminaljs")});
+            return Termpage.replace("Glitch is a tool for coding, collaborate and publish web applications. terminaljs is hosted on Glitch.", {"Glitch": Termpage.link("https://glitch.com/create"), "terminaljs": Termpage.link("https://glitch.com/~terminaljs")});
         break;
 
         default:
